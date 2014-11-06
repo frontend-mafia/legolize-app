@@ -1,0 +1,22 @@
+{
+  "paths": {
+    "src": "app/",
+    "assets": "assets/",
+    "dist": "dist/",
+    "vendors": "vendor/",
+    "modules": "modules/"
+  },
+  "styles": {
+    "lessFolderToCompile": "less/",
+    "lessFilePatternToWatch": "**/*.less",
+    "lessFilePatternToCompile": "*.less",
+    "cssOutputFolder": "css/",
+    "minifyCss": false
+  },
+  "server": {
+    "port": "1337",
+    "livereload": true
+  },
+  "vendors": [
+  ]
+}
